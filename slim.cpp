@@ -1,13 +1,9 @@
 #include "catch.hpp" 
 
-class Snake()
-{
-  public:int a=2;
-  public:int b=1;
-};
-int slim(Snake &s){ 
 
-return s.a-s.b; 
+int slim(){ 
+int a=2;
+  int b=1;
 } 
 TEST_CASE("slim"){ 
 REQUIRE( slim() == 1); 
