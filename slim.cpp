@@ -1,11 +1,15 @@
 #include "catch.hpp" 
 
+class Snake()
+{
+  public:int a=2;
+  public:int b=1;
+};
+int slim(Snake &s){ 
 
-int slim(int a,int b){ 
-
-return a-b; 
+return s.a-s.b; 
 } 
 TEST_CASE("slim","[slim]"){ 
-REQUIRE( slim(2,1) == 1 ); 
-REQUIRE( slim(8,3) == 5 );
+REQUIRE( slim() == 1 ); 
 }
+
