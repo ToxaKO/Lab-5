@@ -9,7 +9,7 @@ int slim(Snake &s){
 
 return s.a-s.b; 
 } 
-TEST_CASE("slim","[slim]"){ 
+TEST_CASE("slim"){ 
 REQUIRE( slim() == 1); 
 }
 
